@@ -1,7 +1,10 @@
 def sum(xs):
     # return the sum of all the elements in the list xs
     # remove the following line
-    return 0
+    res []
+    for i in range(0,len(xs)):
+        res.append(xs[i])
+    return res
 
 def test(test_case, expected):
     actual = sum(test_case)
